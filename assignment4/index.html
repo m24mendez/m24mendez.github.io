@@ -22,7 +22,7 @@
                 "esri/views/MapView",
                 "esri/layers/FeatureLayer",
                 "esri/widgets/Legend"
-            ], function(Map, TileLayer, GeoJSONLayer, MapView, FeatureLayer, Legend) {
+            ], function(Map, TileLayer, GeoJSONLayer, MapView, FeatureLayer, FeatureLayer2, Legend) {
                 const url = "https://rcshepard.github.io/downtownlincoln.geojson";
 
                 const renderer = { 
@@ -74,7 +74,11 @@
 
                 var featureLayer = new FeatureLayer({ url: "https://gisext.lincoln.ne.gov/arcgis/rest/services/Parks/Park_Boundaries/MapServer/0" });
 
+                var featureLayer2 = new FeatureLayer({ url: "https://gisext.lincoln.ne.gov/arcgis/rest/services/Assessor/Encumbrances/MapServer/0" });
+
                 map.add(featureLayer);
+
+                map.add(featureLayer2); // added encumbrances layer
 
                 const legend = new Legend({ view:view, layerInfos: [{ layer: geojsonLayer, title: "Assignment 4 Symbols"}] });
 
