@@ -22,7 +22,7 @@
                 "esri/views/MapView",
                 "esri/layers/FeatureLayer",
                 "esri/widgets/Legend"
-            ], function(Map, TileLayer, GeoJSONLayer, MapView, FeatureLayer, FeatureLayer2, Legend) {
+            ], function(Map, TileLayer, GeoJSONLayer, MapView, FeatureLayer, Legend, FeatureLayer2) {
                 const url = "https://rcshepard.github.io/downtownlincoln.geojson";
 
                 const renderer = { 
@@ -53,7 +53,7 @@
 
                 const geojsonLayer = new GeoJSONLayer({ 
                     url: url, 
-                    copyright: "Copyright: Manuel Mendez",
+                    copyright: "Copyright Manuel Mendez 2024",
                     renderer: renderer 
                 });
 
