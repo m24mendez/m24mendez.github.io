@@ -46,6 +46,13 @@
 					value >= -9 ? '#ef8a62':
 					'#b2182b';
 			}
+
+            var minValue = 1;
+            var minRadius = 5;
+
+            function calcRadius(val) {
+                return 1.0083 * Math.pow(val/minValue,0.5716)*minRadius;
+            }
 			
 			var background = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
 				attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
@@ -63,7 +70,7 @@
 			var timelineControl;
 			
 			function onLoadData(data) {
-				timeline = L.timeline(data, {
+				var timeline = L.timeline(data, {
 					style: function (data) {
 						return {
 							stroke: false,
@@ -72,6 +79,14 @@
 						};
 					},
 					waitToUpdateMap: true,
+                    pointToLayer: function (data, latlng) {
+                        var diff = (data.properties.DIFF);
+                        return L.circleMarker(latlng, {
+                            radius: calcRadius(data.properties.EV),
+                            color: getColorFor(data.properties.DIFF),
+                            fillColor: getColorFor(data.properties.DIFF),
+                        });
+                    },
 					onEachFeature: function (feature, layer) {
 						layer.bindTooltip('<h3>'+ feature.properties.NAME + '</h3> <p>' + ' <br>Biden: <strong>' + 
 							feature.properties.DEM + '</strong> <br>Trump: <strong>' + feature.properties.REP + '</strong></p>');
@@ -94,7 +109,8 @@
 			
 		</script>
 		
-		<script src="https://electionmaps.github.io/statepolls2.jsonp"></script>
+		<script src="https://m24mendez.github.io/assignment7/final_centroids.jsonp"></script>
+        
 		
 	</body>
 	
