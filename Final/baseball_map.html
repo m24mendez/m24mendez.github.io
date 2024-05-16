@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baseball Stadiums Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet/dist/esri-leaflet.js"></script>
+    <script>
+        // Initializing map
+        var map = L.map('map').setView([39.8283, -98.5795], 4); // Centered on the US
+
+        // Base layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+
+        // Add the ArcGIS Feature Layer for MLB stadiums
+        var baseballStadiums = L.esri.featureLayer({
+            url: 'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0',
+            style: function () {
+                return { color: 'blue', weight: 2 };
+            }
+        }).addTo(map);
+
+        // Pop up information
+        baseballStadiums.bindPopup(function (layer) {
+            return L.Util.template('<p>{NAME}</p><p>{CITY}, {STATE}</p> <p>Capacity: {CAPACITY}</p> <p>Team: {TEAM}</p>' , layer.feature.properties);
+        });
+
+        // // Example GeoJSON layer for demographic data
+        // var demographicLayer = L.geoJson(null, {
+        //     style: function (feature) {
+        //         return { color: 'green', weight: 2 };
+        //     },
+        //     onEachFeature: function (feature, layer) {
+        //         layer.bindPopup('<p>' + feature.properties.description + '</p>');
+        //     }
+        // }).addTo(map);
+
+        // // Load GeoJSON data
+        // fetch('path/to/your/demographic_data.geojson')
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         demographicLayer.addData(data);
+        //     });
+    </script>
+</body>
+</html>
