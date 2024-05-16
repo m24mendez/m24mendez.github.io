@@ -36,23 +36,6 @@
         baseballStadiums.bindPopup(function (layer) {
             return L.Util.template('<p>{NAME}</p><p>{CITY}, {STATE}</p> <p>Capacity: {CAPACITY}</p> <p>Team: {TEAM}</p>' , layer.feature.properties);
         });
-
-        // // Example GeoJSON layer for demographic data
-        // var demographicLayer = L.geoJson(null, {
-        //     style: function (feature) {
-        //         return { color: 'green', weight: 2 };
-        //     },
-        //     onEachFeature: function (feature, layer) {
-        //         layer.bindPopup('<p>' + feature.properties.description + '</p>');
-        //     }
-        // }).addTo(map);
-
-        // // Load GeoJSON data
-        // fetch('path/to/your/demographic_data.geojson')
-        //     .then(response => response.json())
-        //     .then(data => {
-        //         demographicLayer.addData(data);
-        //     });
     </script>
 </body>
 </html>
