@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Baseball Stadiums with Time Slider</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/light/main.css" />
+    <script src="https://js.arcgis.com/4.29/"></script>
+
+    <style>
+        html, body, #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        #timeSlider {
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            bottom: 20px;
+        }
+    </style>
+
+    <script>
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/GeoJSONLayer",
+            "esri/widgets/TimeSlider",
+            "esri/widgets/Legend",
+            "esri/renderers/UniqueValueRenderer",
+            "esri/symbols/SimpleMarkerSymbol",
+            "esri/widgets/Search"
+        ], function (Map, MapView, GeoJSONLayer, TimeSlider, Legend, UniqueValueRenderer, SimpleMarkerSymbol, Search) {
+
+            const renderer = new UniqueValueRenderer({
+                field: "LEAGUE",
+                uniqueValueInfos: [
+                    {
+                        value: "AL",
+                        symbol: new SimpleMarkerSymbol({
+                            color: "#b2182b", // Red
+                            size: "8px",
+                            outline: { color: "#000000", width: 1 }
+                        }),
+                        label: "American League"
+                    },
+                    {
+                        value: "NL",
+                        symbol: new SimpleMarkerSymbol({
+                            color: "#2166ac", // Blue
+                            size: "8px",
+                            outline: { color: "#000000", width: 1 }
+                        }),
+                        label: "National League"
+                    }
+                ]
+            });
+
+            const popupTemplate = {
+                title: "{NAME}",
+                content: [
+                    {
+                        type: "fields",
+                        fieldInfos: [
+                            { fieldName: "NAME", label: "Stadium Name" },
+                            { fieldName: "CITY", label: "City" },
+                            { fieldName: "STATE", label: "State" },
+                            { fieldName: "TEAM", label: "Team Name" },
+                            { fieldName: "CAPACITY", label: "Capacity" }
+                        ]
+                    }
+                ]
+            };
+
+            const geojsonLayer = new GeoJSONLayer({
+                url: "https://m24mendez.github.io/Final/parks_final.geojson",
+                outFields: ["*"],
+                popupTemplate: popupTemplate,
+                renderer: renderer,
+                timeInfo: {
+                    startField: "START",
+                    endField: "END",
+                    interval: {
+                        unit: "years",
+                        value: 1
+                    }
+                }
+            });
+
+            const map = new Map({
+                basemap: "streets",
+                layers: [geojsonLayer]
+            });
+
+            const view = new MapView({
+                map: map,
+                container: "viewDiv",
+                zoom: 3.8,
+                center: [-98.5795, 39.8283]
+            });
+
+            geojsonLayer.when(function() {
+                view.whenLayerView(geojsonLayer).then(function(layerView) {
+                    const timeSlider = new TimeSlider({
+                        container: "timeSlider",
+                        view: view,
+                        timeVisible: true,
+                        loop: true,
+						stops: {
+							interval: {
+								value: 1,
+								unit: "years"
+							}
+						},
+                        fullTimeExtent: layerView.layer.timeInfo.fullTimeExtent
+                    });
+                    view.ui.add(timeSlider, "manual");
+                });
+            });
+
+            const legend = new Legend({
+				view: view,
+				layerInfos: [{
+					layer: geojsonLayer,
+					title: "Leagues"
+				}]
+			});
+
+            view.ui.add(legend, "top-left");
+
+            const searchWidget = new Search({
+                view: view,
+                sources: [{
+                    layer: geojsonLayer,
+                    searchFields: ["TEAM"],
+                    displayField: "TEAM",
+                    exactMatch: false,
+                    outFields: ["*"],
+                    placeholder: "Search for a team"
+                }],
+                includeDefaultSources: false  // This ensures only the custom source is used
+            });
+
+            view.ui.add(searchWidget, "top-right");
+        });
+    </script>
+</head>
+<body>
+    <div id="viewDiv"></div>
+    <div id="timeSlider"></div>
+</body>
+</html>
