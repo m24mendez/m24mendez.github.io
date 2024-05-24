@@ -1,0 +1,121 @@
+﻿PARKID,NAME,CITY,STATE,START,END,LEAGUE,Latitude,Longitude,Altitude,TEAM,CAPACITY,Notes
+CIN02,Avenue Grounds,Cincinnati,OH,18760425,18790827,NL,39.14,-84.55,480,Red Stockings,7000,https://www.retroseasons.com/stadiums/avenue-grounds/
+PRO02,Messer Street Grounds,Providence,RI,18780501,18850909,NL,41.81,-71.44,83,Providence Grays,6000,https://en.wikipedia.org/wiki/Messer_Street_Grounds
+CHI03,White Stocking Park,Chicago,IL,18780514,18841011,NL,41.88,-87.62,585,Chicago White Stockings ,7000,https://www.seamheads.com/ballparks/ballpark.php?parkID=CHI01
+BUF01,Riverside Grounds,Buffalo,NY,18790501,18830908,NL,42.91,-78.89,631,Buffalo Bisons,-,https://en.wikipedia.org/wiki/Olympic_Park_(Buffalo)
+CLE02,National League Park I,Cleveland,OH,18790501,18841011,NL,41.5,-81.65,667,Cleveland Blues,-,https://en.wikipedia.org/wiki/National_League_Park
+TRO02,Putnam Grounds,Troy,NY,18790528,18790920,NL,42.73,-73.68,250,Troy Trojans,-,https://www.retroseasons.com/stadiums/putnam-grounds/
+ALB01,Riverside Park,East Albany,NY,18800911,18820530,NL,42.64,-73.75,14,Troy Trojans,3000,https://www.statscrew.com/venues/v-38
+DET01,Recreation Park,Detroit,MI,18810502,18900923,NL,42.35,-83.06,625,Detroit Wolverines,-,https://www.baseball-reference.com/bullpen/Recreation_Park_(Detroit)
+PHI04,Recreation Park,Philadelphia,PA,18830501,18861009,NL,39.98,-75.17,104,Philadelphia Phillies,6500,https://en.wikipedia.org/wiki/Recreation_Park_(Philadelphia)
+BUF02,Olympic Park I,Buffalo,NY,18840521,18851007,NL,42.91,-78.88,632,Buffalo Bisons,-,https://en.wikipedia.org/wiki/Olympic_Park_(Buffalo)
+CHI06,West Side Park,Chicago,IL,18850606,18911002,NL,41.87,-87.66,588,Chicago Colts,10000,https://en.wikipedia.org/wiki/Chicago_Cubs
+WAS05,Swampoodle Grounds,Washington,DC,18860429,18890921,NL,38.9,-77.01,40,Washington Nationals,6000,https://en.wikipedia.org/wiki/Swampoodle_Grounds
+PHI06,Huntingdon Grounds I,Philadelphia,PA,18870430,18940804,NL,39.99,-75.16,98,Philadelphia Phillies,12500,https://en.wikipedia.org/wiki/Baker_Bowl
+BOS03,South End Grounds II,Boston,MA,18880525,18940514,NL,42.34,-71.09,11,Boston Beaneaters,6800,https://www.ballparksofbaseball.com/ballparks/south-end-grounds/ ; https://en.wikipedia.org/wiki/Atlanta_Braves
+NYC10,Polo Grounds IV,New York,NY,18900419,19110413,NL,40.83,-73.94,13,New York Giants,54500,https://www.retroseasons.com/stadiums/polo-grounds-iv/
+PIT05,Exposition Park III,Pittsburgh,PA,18900419,19151002,NL,40.45,-80.01,729,Pittsburgh Pirates,16000,https://www.seamheads.com/ballparks/ballpark.php?parkID=PIT05
+NYC11,Eastern Park,Brooklyn,NY,18900428,18971002,NL,40.67,-73.9,40,Brooklyn Bridgerooms,12000,https://en.wikipedia.org/wiki/Eastern_Park
+CHI07,South Side Park II,Chicago,IL,18900505,18930524,NL,41.83,-87.63,595,Chicago Colts,-,http://www.projectballpark.org/history/pl/south2.html
+CAN02,Pastime Park,Canton,OH,18900918,18900918,NL,40.81,-81.42,1058,Pittsburgh Burghers,-,http://www.projectballpark.org/history/nl/alt/pasttime.html
+CLE05,League Park III,Cleveland,OH,18910501,19090906,NL,41.51,-81.64,644,Cleveland Spiders,21414,https://en.wikipedia.org/wiki/League_Park
+CLE05,League Park III,Cleveland,OH,18910501,19090906,AL,41.51,-81.64,644,Cleveland Indians,21414,https://en.wikipedia.org/wiki/League_Park
+BAL07,Oriole Park III,Baltimore,MD,18910511,18991010,AL/NL,39.32,-76.61,153,Baltimore Orioles,6500,http://www.projectballpark.org/history/aa/oriole3.html
+STL05,Robison Field,St. Louis,MO,18930427,19200606,NL,38.66,-90.22,500,Saint Louis Cardinals,21000,https://www.ballparksofbaseball.com/ballparks/robison-field/
+CHI08,West Side Grounds,Chicago,IL,18930514,19151003,NL,41.87,-87.67,593,Chicago Cubs,16000,https://en.wikipedia.org/wiki/West_Side_Park#The_first_West_Side_Park_(1885%E2%80%931891)
+LOU03,Eclipse Park II,Louisville,KY,18930522,18990802,NL,38.25,-85.8,452,Louisville Colonels,6000,https://www.retroseasons.com/stadiums/eclipse-park-louisville-ii/
+CIN05,League Park II,Cincinnati,OH,18940420,19011006,NL,39.12,-84.54,489,Cincinatti Reds,3000,https://en.wikipedia.org/wiki/League_Park_(Cincinnati)
+BOS05,South End Grounds III,Boston,MA,18940720,19140811,NL,42.34,-71.09,11,Boston Doves/ Boston Rustlers/ Boston Braves,11000,"https://www.baseball-reference.com/bullpen/South_End_Grounds#:~:text=After%20the%20fire%2C%20the%20Beaneaters,Braves%20Field%20the%20following%20season."
+PHI14,Huntingdon Grounds II,Philadelphia,PA,18940818,18940906,NL,39.99,-75.16,98,Philadelphia Phillies,12500,https://en.wikipedia.org/wiki/Baker_Bowl
+PHI09,Baker Bowl,Philadelphia,PA,18950502,19380630,NL,39.99,-75.16,98,Philadelphia Phillies,18800,https://en.wikipedia.org/wiki/Baker_Bowl
+NYC12,Washington Park III,Brooklyn,NY,18980430,19121005,NL,40.68,-73.99,26,Brooklyn Superbas/ Brooklyn Trolley Dodgers,18800,https://www.retroseasons.com/stadiums/washington-park-iii/
+CLL01,Euclid Beach Park,Collinwood,OH,18980612,18980619,NL,41.58,-81.57,604,Cleveland Spiders,-,http://www.projectballpark.org/history/nl/alt/euclid.html
+CHI09,South Side Park III,Chicago,IL,19010424,19100627,AL,41.82,-87.63,594,Chicago White Sox/ Chicago White Stockings,15000,https://en.wikipedia.org/wiki/South_Side_Park
+DET02,Bennett Park,Detroit,MI,19010425,19110910,AL,42.33,-83.07,601,Detroit Tigers,14000,https://en.wikipedia.org/wiki/Bennett_Park_(Detroit)
+BAL09,Oriole Park IV,Baltimore,MD,19010426,19020929,AL,39.32,-76.61,202,Baltimore Orioles,3000,https://sabr.org/bioproj/park/american-league-park-baltimore/
+PHI10,Columbia Park,Philadelphia,PA,19010426,19081003,AL,39.98,-75.18,98,Philadelphia Athletics,13600,https://en.wikipedia.org/wiki/Columbia_Park
+DET03,Burns Park,Detroit,MI,19010428,19020907,AL,42.32,-83.13,590,Detroit Tigers,3200,https://www.retroseasons.com/stadiums/burns-park/
+WAS07,American League Park I,Washington,DC,19010429,19030928,AL,38.9,-76.99,48,Washington Senators,10000,http://projectballpark.org/history/al/al1.html
+MIL04,Lloyd Street Grounds,Milwaukee,WI,19010503,19010912,AL,43.06,-87.93,677,Milwaukee Brewers,9000,http://projectballpark.org/history/al/lloydst.html
+BOS06,Huntington Avenue Baseball Grounds,Boston,MA,19010508,19111007,AL,42.34,-71.09,8,Boston Americans,11500,https://en.wikipedia.org/wiki/Huntington_Avenue_Grounds
+CIN06,Palace of the Fans,Cincinnati,OH,19020417,19111012,NL,39.12,-84.54,489,Cincinatti Reds,6000,https://en.wikipedia.org/wiki/Palace_of_the_Fans
+STL06,Sportsman's Park II,St. Louis,MO,19020423,19081006,AL,38.66,-90.22,492,Saint Louis Cardinals,17500,https://www.ballparksofbaseball.com/ballparks/sportsmans-park/
+DAY01,Fairview Park,Dayton,OH,19020608,19020608,AL,39.79,-84.21,824,-,-,
+FOR03,Jailhouse Flats,Fort Wayne,IN,19020622,19020831,AL,41.08,-85.14,756,Cleveland Indians,-,http://projectballpark.org/history/al/alt/jailhouse.html
+COL03,Neil Park I,Columbus,OH,19020803,19030517,AL,39.97,-82.99,783,-,-,
+NYC13,Hilltop Park,New York,NY,19030430,19121005,AL,40.84,-73.94,164,New York Highlanders/ New York Giants,16000,https://www.ballparksofbaseball.com/ballparks/hilltop-park/
+WAS08,American League Park II,Washington,DC,19040414,19101006,AL,38.92,-77.02,100,Washington Senators,6500,https://www.retroseasons.com/stadiums/boundary-field/
+COL04,Neil Park II,Columbus,OH,19050723,19050724,AL,39.97,-82.99,783,-,-,
+PHI11,Shibe Park,Philadelphia,PA,19090412,19701001,AL,40,-75.16,116,Philadelphia Athletics,33000,https://www.ballparksofbaseball.com/ballparks/shibe-park/
+PHI11,Shibe Park,Philadelphia,PA,19090412,19701001,NL,40,-75.16,116,Philadelphia Phillies,33000,https://www.ballparksofbaseball.com/ballparks/shibe-park/
+STL07,Sportsman's Park III,St. Louis,MO,19090414,19660508,NL,38.66,-90.22,492,Saint Louis Browns,30611,https://www.ballparksofbaseball.com/ballparks/sportsmans-park/
+PIT06,Forbes Field,Pittsburgh,PA,19090630,19700628,NL,40.44,-79.95,893,Pittsburgh Pirates,35000,https://www.ballparksofbaseball.com/ballparks/forbes-field/
+CLE06,League Park IV,Cleveland,OH,19100421,19460921,AL,41.51,-81.64,644,Cleveland Indians,22500,https://en.wikipedia.org/wiki/League_Park
+CHI10,Comiskey Park I,Chicago,IL,19100701,19900930,AL,41.83,-87.63,594,Chicago White Sox,43951,https://en.wikipedia.org/wiki/Comiskey_Park
+WAS09,Griffith Stadium,Washington,DC,19110412,19610921,AL,38.92,-77.02,100,Washington Nationals/ Washington Senators,27410,https://www.ballparksofbaseball.com/ballparks/griffith-stadium/
+NYC14,Polo Grounds V,New York,NY,19110628,19630918,AL/NL,40.83,-73.94,13,New York Giants/ New York Yankees/ New York Mets,54555,https://www.ballparksofbaseball.com/ballparks/polo-grounds/
+CIN07,Crosley Field,Cincinnati,OH,19120411,19700624,NL,39.12,-84.54,488,Cincinatti Reds,29488,https://en.wikipedia.org/wiki/Crosley_Field
+BOS07,Fenway Park,Boston,MA,19120420,,AL,42.35,-71.1,16,Boston Red Sox,37493,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+DET04,Tiger Stadium,Detroit,MI,19120420,19990927,AL,42.33,-83.07,601,Detroit Tigers,52400,https://www.ballparksofbaseball.com/ballparks/tiger-stadium/
+NYC15,Ebbets Field,Brooklyn,NY,19130409,19570924,NL,40.66,-73.96,84,Brooklyn Dodgers,32000,https://www.ballparksofbaseball.com/ballparks/ebbets-field/
+CHI11,Wrigley Field,Chicago,IL,19140423,,NL,41.95,-87.66,599,Chicago Cubs,41160,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+BOS08,Braves Field,Boston,MA,19150818,19520921,NL,42.35,-71.12,26,Boston Braves/ Boston Bees,40000,https://www.ballparksofbaseball.com/ballparks/braves-field/
+NYC16,Yankee Stadium I,New York,NY,19230418,20080921,AL,40.83,-73.93,18,New York Yankees,56937,https://www.ballparksofbaseball.com/ballparks/old-yankee-stadium/
+CLE07,Cleveland Stadium,Cleveland,OH,19320731,19931003,AL,41.51,-81.7,593,Cleveland Indians,74438,https://en.wikipedia.org/wiki/Cleveland_Stadium
+MIL05,Milwaukee County Stadium,Milwaukee,WI,19530414,20000928,NL,43.03,-87.97,,Milwaukee Braves/ Milwaukee Brewers,53192,https://en.wikipedia.org/wiki/Milwaukee_County_Stadium; https://www.ballparksofbaseball.com/ballparks/milwaukee-county-stadium/; https://www.jsonline.com/picture-gallery/sports/mlb/brewers/2024/03/27/see-rare-color-images-from-the-brewers-first-opening-day-in-1970/73121747007/
+BAL11,Memorial Stadium,Baltimore,MD,19540415,19911006,AL,39.33,-76.6,231,Baltimore Orioles,54000,https://www.mlb.com/orioles/history/ballparks
+KAN05,Municipal Stadium,Kansas City,MO,19550412,19721004,AL,39.09,-94.56,916,Kansas City Athletics/ Kansas City Royals,30611,https://www.ballparksofbaseball.com/ballparks/kansas-city-municipal-stadium/
+SFO01,Seals Stadium,San Francisco,CA,19580415,19590920,NL,37.77,-122.41,61,San Francisco Giants,22900,https://www.ballparksofbaseball.com/ballparks/seals-stadium/
+LOS01,Los Angeles Memorial Coliseum,Los Angeles,CA,19580418,19610920,NL,34.01,-118.29,139,Los Angeles Dodgers,90000,https://sabr.org/journal/article/a-home-like-no-other-the-dodgers-in-l-a-memorial-coliseum/
+SFO02,Candlestick Park,San Francisco,CA,19600412,19990930,NL,37.71,-122.39,135,San Francisco Giants,57546,https://www.ballparksofbaseball.com/ballparks/candlestick-park/
+MIN02,Metropolitan Stadium,Bloomington,MN,19610421,19810930,AL,44.85,-93.24,821,Minnesota Twins,45919,https://www.ballparksofbaseball.com/ballparks/metropolitan-stadium/
+LOS02,Wrigley Field,Los Angeles,CA,19610427,19611001,AL,34.01,-118.27,188,Los Angeles Angels,20457,https://en.wikipedia.org/wiki/Wrigley_Field_(Los_Angeles)
+WAS10,Robert F. Kennedy Stadium,Washington,DC,19620409,20070923,AL,38.89,-76.97,24,Washington Senators/ Washington Nationals,46382,https://www.ballparksofbaseball.com/ballparks/rfk-stadium/
+HOU01,Colt Stadium,Houston,TX,19620410,19640927,NL,29.69,-95.41,55,Houston Colt .45s,33000,https://en.wikipedia.org/wiki/Houston_Astros; https://www.ballparksofbaseball.com/ballparks/colt-stadium/
+LOS03,Dodger Stadium,Los Angeles,CA,19620410,,NL,34.07,-118.24,501,Los Angeles Dodgers/ Los Angeles Angels,56000,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+NYC17,Shea Stadium,New York,NY,19640417,20080928,NL,40.76,-73.85,13,New York Mets,57333,https://www.ballparksofbaseball.com/ballparks/shea-stadium/
+HOU02,Astrodome,Houston,TX,19650412,19991003,NL,29.68,-95.41,52,Houston Astros,54816,"https://www.ballparksofbaseball.com/ballparks/astrodome/#:~:text=In%20Fall%201989%2C%20due%20to,boards%20in%20the%20upper%20deck."
+ATL01,Atlanta-Fulton County Stadium,Atlanta,GA,19660412,19960923,NL,33.74,-84.39,979,Atlanta Braves,52769,https://en.wikipedia.org/wiki/Turner_Field
+ANA01,Angel Stadium of Anaheim,Anaheim,CA,19660419,,AL,33.8,-117.88,154,Los Angeles Angels,45050,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+STL09,Busch Stadium II,St. Louis,MO,19660512,20051002,NL,38.62,-90.19,460,Saint Louis Cardinals,50345,https://www.ballparksofbaseball.com/ballparks/busch-stadium-2/
+OAK01,Oakland-Alameda County Coliseum,Oakland,CA,19680417,,AL,37.75,-122.2,0,Oakland Athletics,63026,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+SAN01,Jack Murphy Stadium,San Diego,CA,19690408,20030928,NL,32.78,-117.12,83,San Diego Padres,47972,https://www.ballparksofbaseball.com/ballparks/jack-murphy-stadium/
+SEA01,Sicks' Stadium,Seattle,WA,19690411,19691002,AL,47.58,-122.3,61,Seattle Pilots,25000,https://www.ballparksofbaseball.com/ballparks/sicks-stadium/
+MON01,Parc Jarry,Montreal,QUE,19690414,19760926,NL,45.53,-73.63,190,Montreal Expos,29125,"https://www.ballparksofbaseball.com/ballparks/jarry-park/#:~:text=A%203%2C000%20seat%20stadium%20known,could%20be%20increased%20to%2030%2C000."
+CIN08,Riverfront Stadium,Cincinnati,OH,19700630,20020922,NL,39.1,-84.51,489,Cincinatti Reds,52952,https://en.wikipedia.org/wiki/Riverfront_Stadium
+PIT07,Three Rivers Stadium,Pittsburgh,PA,19700716,20001001,NL,40.45,-80.01,730,Pittsburgh Pirates,47952,https://www.ballparksofbaseball.com/ballparks/three-rivers-stadium/
+PHI12,Veterans Stadium,Philadelphia,PA,19710410,20030928,NL,39.91,-75.17,18,Philadelphia Phillies,61831,https://en.wikipedia.org/wiki/Veterans_Stadium
+ARL01,Arlington Stadium,Arlington,TX,19720421,19931003,AL,32.76,-97.08,552,Texas Rangers,43521,https://www.mlb.com/rangers/history/ballparks
+KAN06,Kauffman Stadium,Kansas City,MO,19730410,,AL,39.05,-94.48,886,Kansas City Royals,37903,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+SEA02,Kingdome,Seattle,WA,19770406,19990627,AL,47.6,-122.33,17,Seattle Mariners,59100,https://www.ballparksofbaseball.com/ballparks/kingdome/
+TOR01,Exhibition Stadium,Toronto,ONT,19770407,19890528,AL,43.63,-79.42,273,Toronto Blue Jays,44649,https://www.ballparksofbaseball.com/ballparks/exhibition-stadium/
+MON02,Stade Olympique,Montreal,QUE,19770415,20040929,NL,45.56,-73.55,89,Montreal Expos,46500,https://www.ballparksofbaseball.com/ballparks/olympic-stadium/
+MIN03,Hubert H. Humphrey Metrodome,Minneapolis,MN,19820406,20091006,AL,44.97,-93.26,854,Minnesota Twins,46564,https://simple.wikipedia.org/wiki/Hubert_H._Humphrey_Metrodome
+TOR02,Rogers Centre,Toronto,ONT,19890605,,AL,43.64,-79.39,268,Toronto Blue Jays,48292,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+CHI12,Guaranteed Rate Park,Chicago,IL,19910418,,AL,41.83,-87.63,594,Chicago White Sox,40615,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+BAL12,Oriole Park at Camden Yards,Baltimore,MD,19920406,,AL,39.28,-76.62,35,Baltimore Orioles,45363,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+MIA01,Pro Player Stadium,Miami,FL,19930405,20110928,NL,25.96,-80.24,5,Florida Marlins,36500,https://baseball.fandom.com/wiki/Sun_Life_Stadium
+DEN01,Mile High Stadium,Denver,CO,19930409,19940811,NL,39.75,-105.02,5211,Colorado Rockies,76000,http://projectballpark.org/history/nl/mile.html
+CLE08,Progressive Field,Cleveland,OH,19940404,,AL,41.5,-81.69,673,Cleveland Guardians,43441,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+ARL02,Globe Life Park,Arlington,TX,19940411,20190929,AL,32.75,-97.08,549,Texas Rangers,48114,https://www.mlb.com/rangers/history/ballparks
+DEN02,Coors Field,Denver,CO,19950426,,NL,39.76,-104.99,5197,Colorado Rockies,50490,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+ATL02,Turner Field,Atlanta,GA,19970404,20161002,NL,33.74,-84.39,939,Atlanta Braves,49586,https://en.wikipedia.org/wiki/Turner_Field
+PHO01,Chase Field,Phoenix,AZ,19980331,,NL,33.45,-112.07,1059,Arizona Diamondbacks,48330,https://en.wikipedia.org/wiki/Chase_Field
+STP01,Tropicana Field,St. Petersburg,FL,19980331,,AL,27.77,-82.65,41,Tampa Bay Rays,34078,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+SEA03,T-Mobile Park,Seattle,WA,19990715,,AL,47.59,-122.33,17,Seattle Mariners,47878,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+HOU03,Minute Maid Park,Houston,TX,20000407,,NL,29.76,-95.36,20,Houston Astros,40963,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+DET05,Comerica Park,Detroit,MI,20000411,,AL,42.34,-83.05,602,Detroit Tigers,41681,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+SFO03,Oracle Park,San Francisco,CA,20000411,,NL,37.78,-122.39,8,San Francisco Giants,41915,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+MIL06,American Family Field,Milwaukee,WI,20010406,,NL,43.03,-87.97,602,Milwaukee Brewers,41900,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+PIT08,PNC Park,Pittsburgh,PA,20010409,,NL,40.45,-80.01,724,Pittsburgh Pirates,38362,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+CIN09,Great American Ballpark,Cincinnati,OH,20030331,,NL,39.1,-84.51,489,Cincinatti Reds,42319,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+SAN02,Petco Park,San Diego,CA,20040408,,NL,32.71,-117.16,14,San Diego Padres,42302,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+PHI13,Citizens Bank Park,Philadelphia,PA,20040412,,NL,39.91,-75.17,19,Philadelphia Phillies,43651,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+STL10,Busch Stadium III,St. Louis,MO,20060410,,NL,38.62,-90.19,438,Saint Louis Cardinals,43975,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+WAS11,Nationals Park,Washington,DC,20080330,,NL,38.87,-77.01,23,Washington Nationals,41418,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+NYC20,Citi Field,New York,NY,20090413,,NL,40.76,-73.85,13,New York Mets,41800,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+NYC21,New Yankee Stadium,New York,NY,20090416,,AL,40.83,-73.93,11,New York Yankees,49642,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+MIN04,Target Field,Minneapolis,MN,20100412,,AL,44.98,-93.28,840,Minnesota Twins,39021,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+MIA02,Marlins Park,Miami,FL,20120404,,NL,25.78,-80.22,6,Miami Marlins,37000,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+ATL03,SunTrust Park,Atlanta,GA,20170414,,NL,33.89,-84.47,981,Atlanta Braves,41084,https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Major_League_Baseball_Stadiums/FeatureServer/0
+ARL03,Globe Life Field,Arlington,TX,20200724,,AL,32.75,-97.08,551,Texas Rangers,40300,https://www.mlb.com/rangers/ballpark/facts-figures
